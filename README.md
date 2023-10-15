@@ -6,6 +6,14 @@ It depends only on <https://github.com/andybalholm/brotli>.
 
 ## Usage
 
+1. Import the package
+
+    ```go
+    import "github.com/go-swiss/compress"
+    ```
+
+2. Add `compress.Middleware` to your router.
+
 ### With `net/http`
 
 ```go
